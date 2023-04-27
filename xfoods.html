@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Max Suniel Street food</title>
+<style>
+body {
+    background-color:grey;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	position: relative;
+	margin-top: 100px;
+}
+.container img {
+	display: block;
+	width: 100%;
+}
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Montserrat', sans-serif ;
+	padding: 0 5%;
+	height: 100px;
+	background-color: #545A6A;
+}
+nav .logo {
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	color: #fff;
+}
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav .links li {
+	list-style: none;
+}
+nav .links a {
+	display: block;
+	padding: 1em;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+	nav .logo {
+		float: none;
+		width: auto;
+		justify-content: center;
+	}
+	nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: rgba(0,0,0,.8);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+	nav .links a {
+		font-size: 20px;
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+	
+}
+
+.youtube-link {
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+}
+h1 {
+font-color: white;
+}
+</style>
+</head>
+<body>
+<header>
+MAX SUNIEL STREETFOOD
+</header>
+<nav>
+	
+	<ul class="links">
+		<li><a href="xhome22.html">Home</a></li>
+		<li><a href="xabout2.html">About</a></li>
+		<li><a href="xfoods.html">Food</a></li>
+		<li><a href="contactUs.html">Contact</a></li>
+		
+	</ul>
+	
+</nav>
+
+<div class="container">
+	<img src="collage.jpg" alt="">
+	
+</div>
+
+
+</style>
+</head>
+<body>
+
+
+
+
+<br /><br /><br /><br /><br>
+
+<!-- foods -->
+
+ <br><h1><center> AVAILABLE FOOD </center></h1><br>
+ 
+  <fieldset class="frame" style="float: center;">
+  <legend style="font-family: tahoma; font-size:40pt; ">  </legend>
+  <div class="container">
+	<img src="DescBihon.png" alt="">
+	<img src="DescBeta.png" alt="">
+	<img src="Descomb.png" alt="">
+	<img src="DescTak.png" alt="">
+    <img src="DeskMais.png" alt="">
+	<img src="DescDyna.png" alt="">
+	</div>
+	
+<footer>
+<center> 
+<br>
+	<p>© Max Saniel Street Foods PH 2000</p>
+</footer>	
+</html>
+</body>
